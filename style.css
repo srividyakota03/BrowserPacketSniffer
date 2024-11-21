@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c; /* Black background */
+  color: #f5f5dc; /* Beige text */
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  background-color: #333; /* Dark gray header */
+  color: #f5f5dc;
+  padding: 20px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+  max-width: 90%;
+  margin: 20px auto;
+  background-color: #2c2c2c; /* Darker beige-gray */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Controls Section */
+#controls {
+  margin-bottom: 20px;
+}
+
+#urlInputs {
+  margin-bottom: 10px;
+}
+
+.urlInputWrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.urlInput {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #f5f5dc;
+  border-radius: 4px;
+  background-color: #333; /* Dark gray input field */
+  color: #f5f5dc;
+}
+
+#addInputBtn, #fetchAllBtn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #f5f5dc; /* Beige button */
+  color: #1c1c1c; /* Black text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addInputBtn:hover, #fetchAllBtn:hover {
+  background-color: #d4c89a; /* Light beige */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #f5f5dc; /* Beige border */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #f5f5dc; /* Beige cell borders */
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #444; /* Dark gray header */
+  color: #f5f5dc;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #2c2c2c; /* Alternating row color */
+}
+
+tr:hover {
+  background-color: #555; /* Highlight row on hover */
+}
+
+td {
+  font-size: 0.9rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  #urlInput {
+    width: 200px;
+  }
+}
