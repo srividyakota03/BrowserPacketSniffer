@@ -26,4 +26,7 @@ The **Browser-Based Network Packet Sniffer** is a lightweight web application th
 - Browser APIs: Leverages fetch() and XMLHttpRequest for intercepting HTTP requests.
 ![image (1)](https://github.com/user-attachments/assets/3f7f8033-1cb5-4cb7-af3b-241e6c44321f)
 ![Bimage](https://github.com/user-attachments/assets/20741b14-bfd0-461e-b6a4-5c288e64a094)
+---
+## Work Flow
+![image](https://github.com/user-attachments/assets/d095f106-aee6-4004-a93b-3b741c1e9107)
 
