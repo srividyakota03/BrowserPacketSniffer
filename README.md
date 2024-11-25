@@ -1,24 +1,29 @@
-**Browser-Based Network Packet Sniffer**
-The Browser-Based Network Packet Sniffer is a lightweight web application that monitors and logs HTTP requests made by a browser in real-time. Designed for web developers, network students, and learners, this tool provides an accessible way to analyze HTTP communication without the need for advanced network-level tools.
+# Browser-Based Network Packet Sniffer
 
-**Features:**
-1.Real-Time HTTP Monitoring:
-  -Captures HTTP requests and logs essential details:
-      >Request Type (GET, POST, etc.)
-      >URL
-      >HTTP Status Code
-      >Response Time
-      >Response Size (if available)
-2.Dynamic Display:
-     -Real-time updates to a user-friendly interface without page reloads.
-3.Filtering Options:
-     -Filter logged requests based on type (e.g., GET, POST).
+## Overview
+The **Browser-Based Network Packet Sniffer** is a lightweight web application that allows users to monitor and log HTTP requests made by a browser in real time. This tool captures key details of HTTP requests and responses such as request type, destination URL, status code, and response time. It is ideal for web developers, testers, and students who want to understand and debug web communication in a simple, browser-based environment.
 
-**How It Works:**
--Intercepting Requests:
-  Overrides browser functions for fetch and XMLHttpRequest to log HTTP request details.
-  Captures data at the application layer of the network stack.
--Dynamic Logging:
-  Updates the display in real-time with request data.
--Browser Security Compliance:
-  Operates within browser sandboxing rules and logs only application-level HTTP details
+---
+
+## Features
+- **Real-Time Request Monitoring**: Intercepts HTTP requests (via `fetch` and `XMLHttpRequest`) in real time.
+- **Detailed Logging**: Captures and logs the request type (GET, POST, etc.), destination URL, status code, and response time.
+- **Interactive Interface**: Dynamic table display of logged requests with filters and sorting options.
+- **Custom URL Input**: Allows users to input multiple URLs to test requests directly from the application.
+- **Simple & Lightweight**: A browser-based tool that doesn’t require complex installations or configurations.
+  
+---
+
+## Installation
+
+### Prerequisites:
+- A modern web browser (Chrome, Firefox, etc.)
+- Text editor (VS Code, Sublime Text, etc.)
+
+---
+## Technology Stack
+- HTML, CSS, JavaScript: Core technologies used for building the application.
+- Browser APIs: Leverages fetch() and XMLHttpRequest for intercepting HTTP requests.
+![image (1)](https://github.com/user-attachments/assets/3f7f8033-1cb5-4cb7-af3b-241e6c44321f)
+![Bimage](https://github.com/user-attachments/assets/20741b14-bfd0-461e-b6a4-5c288e64a094)
+
